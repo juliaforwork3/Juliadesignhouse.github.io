@@ -1,0 +1,445 @@
+/*header section styling*/
+header {
+    padding-top: 50px;
+    padding-left: 80px;
+    display: flex;
+}
+
+body {
+    font-weight: 500;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header a:hover {
+    color: white;
+}
+
+.navbar-brand {
+    display: flex;
+    font-family: 'DM Serif Display', serif;
+}
+
+
+#mediaicon .iconitem {
+    display: flex;
+    align-items: center;
+}
+
+/* home page skills section styling*/
+#skills {
+    display: flex;
+    margin: auto;
+    padding-top: 50px;
+}
+
+#skills .card {
+    margin-left: 30px;
+    border-radius: 10%;
+}
+
+/* all of the skills icons and related topic*/
+.subtitle {
+    padding-top: 20px;
+}
+
+article {
+    padding-top: 80px;
+    margin-left: 80px;
+}
+
+#skillsicon img {
+    width: 100px;
+}
+
+#designapp img {
+    width: 100px;
+}
+
+#languageskillsicon {
+    display: flex;
+    padding-left: 60px;
+}
+
+#languageskillsicon img {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+#designappicon {
+    display: flex;
+    padding-left: 60px;
+}
+
+#designappicon img {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 80px;
+
+}
+
+/* card section styling*/
+.card {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.card img {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-title {
+    padding-top: 30px;
+    text-align: center;
+}
+
+
+.card:hover {
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+#projectpreview .card {
+    padding-top: 80px;
+    padding-bottom: 100px;
+    margin-left: 30px;
+    border-radius: 10%;
+    margin-right: 80px;
+    margin-bottom: 90px;
+    margin: auto;
+}
+
+.bg-dark {
+    background-color: #101723 !important;
+}
+
+.card {
+    background-color: #263142 !important;
+}
+
+/*banner section styling*/
+#banner {
+    padding-top: 60px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.projectsinner {
+    text-align: center;
+    padding: 80px 0px 80px 0px;
+}
+
+
+.contactinner {
+    text-align: center;
+    padding: 80px 0px 80px 0px;
+}
+
+#innerbanner {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    background-image:
+        url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 40px;
+    min-width: 35rem;
+    padding-top: 40px;
+}
+
+#innerbanner h2 {
+    padding-bottom: 40px;
+}
+
+/*navigation section styling*/
+nav {
+    text-align: center;
+    background-color: black;
+}
+
+nav a {
+    color: #fff;
+}
+
+.navbar-toggler {
+    color: rgba(255, 255, 255, .55);
+    border-color: rgba(255, 255, 255, .1);
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #b2b4b8 !important;
+}
+
+.nav-link.active {
+    text-decoration: none;
+    font-weight: 900;
+    color: #94ddff !important;
+}
+
+.nav-link:hover {
+    color: #ffffff;
+    text-decoration: underline;
+    text-decoration-color: #fff;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1.8rem;
+        padding-left: 1.4rem;
+    }
+}
+
+hr {
+    margin-right: 90px;
+}
+
+/*footer section styling*/
+#footer {
+    text-align: center;
+    background-image:
+        url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    padding-bottom: 20px;
+    min-width: 35rem;
+    padding-top: 80px;
+    font-family: 'DM Serif Display', serif;
+}
+
+footer li {
+    list-style-type: none;
+}
+
+#footer a {
+    text-decoration: none;
+    color: #94ddff;
+    font-weight: 900;
+}
+
+#footer a:hover {
+    color: #4b7af2;
+}
+
+#footer .footercontact {
+    padding-top: 60px;
+    padding-bottom: 120px;
+}
+
+.carousel-item img {
+    max-width: 60%;
+}
+
+.mb-3 {
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+#contactbutton {
+    margin-left: 140px;
+    margin-bottom: 60px;
+}
+
+/*About Me page styling*/
+
+h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.introbio {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.introbio a {
+    text-decoration: none;
+    color: #94ddff;
+
+}
+
+.introbio a:hover {
+    color: #4b7af2;
+}
+
+#aboutmecontent {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+#aboutmecontent2 {
+    padding-top: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 80px;
+}
+
+.information {
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.information h2 {
+    font-weight: 600;
+    font-size: 60px;
+}
+
+/*Contact Me page styling*/
+#contact {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.contactthrough {
+    text-align: center;
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+}
+
+
+#mediaicon {
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 80px;
+    width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mediaicon .iconimg {
+    width: 8rem;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#carouselcertificate {
+    padding-top: 30px;
+}
+
+#carouselcertificate img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#carouseloftravel img {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+
+#carouselprojects img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+#projectscard {
+    padding-top: 35px;
+    margin: auto;
+}
+
+#projectscard .card-text {
+    text-align: center;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#movieposter img {
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+#perfumeposter img {
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+
+#carouselotherprojects img {
+    padding-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#carouselExampleDark img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#prefumecard {
+    text-align: center;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#others {
+    text-align: center;
+    padding-top: 60px;
+    font-weight: 700;
+}
+
+/*Progress page styling*/
+.wireframe {
+    padding-top: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin: auto;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+#progressabstract {
+    padding-top: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin: auto;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+#progressabstract h2 {
+    font-size: 56px;
+    font-weight: 700;
+    padding-top: 30px;
+}

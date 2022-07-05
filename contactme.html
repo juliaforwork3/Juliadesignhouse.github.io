@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en" class="h-100">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+  <title>Julia's Design House</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <!-- Custom Styles and Overrides -->
+  <link href="css/styles.css" rel="stylesheet">
+  <!-- Shortcut icon designed by Runqi Yang using AI and PS. -->
+  <link rel="shortcut icon" href="img/icon1.png" type="image/x-icon">
+</head>
+
+<!-- header section including logo and navigation bar -->
+<nav class="navbar navbar-expand-lg bg-dark text-light">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">Julia.design</a>
+    <button aria-label="menu" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ms-auto">
+        <a class="nav-link" href="aboutme.html">About Me</a>
+        <a class="nav-link" href="projects.html">Projects</a>
+        <a class="nav-link" href="progress.html">Progress</a>
+        <a class="nav-link active" aria-current="page" href="contactme.html">Contact Me</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- inner banner "contact me" -->
+
+<body id="contactpage" class="mb-4 bg-dark text-light">
+  <section id="contact">
+    <section id="innerbanner" class="mb-4 bg-dark text-light">
+      <div>
+        <h1 class="contactinner">Contact Me</h1>
+      </div>
+    </section>
+    <!-- Media Platforms to contact -->
+    <div class="mb-4 bg-dark text-light">
+      <h1 class="contactthrough">Through Media Platforms:</h1>
+    </div>
+    <!-- Media Platforms icon and links-->
+    <div id="mediaicon">
+      <a aria-label="Facebook" href="https://www.facebook.com/profile.php?id=100008165145160"><img class="iconimg"
+          src="img/facebook.png" alt="facebook icon"></a></img>
+      <a aria-label="Twitter" href="https://twitter.com/yukishimizu1121"><img class="iconimg" src="img/twitter.png"
+          alt="twitter icon"></a></img>
+      <a aria-label="Linkedin" href="https://www.linkedin.com/in/julia-yang-09150618a"><img class="iconimg"
+          src="img/linkedin.png" alt="linkedin icon"></a></img>
+    </div>
+    </div>
+  </section>
+
+  <!-- Leave message to contact-->
+  <section>
+    <div>
+      <h1 class="contactthrough">Or Send Me A Message!</h1>
+    </div>
+    <form class="needs-validation" novalidate>
+      <div class="mb-3">
+        <!-- Ask for messager's name -->
+        <label for="InputName" class="form-label">Your Name:</label>
+        <input required type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div class="invalid-feedback">
+          Please provide your name.
+        </div>
+      </div>
+      <!-- Ask for messager's email -->
+      <div class="mb-3">
+        <label for="InputEmail" class="form-label">Email:</label>
+        <input required type="password" class="form-control" id="exampleInputPassword1">
+        <div class="invalid-feedback">
+          Please provide a vaild email address.
+        </div>
+      </div>
+      <!-- Ask for messager's mailing address -->
+      <div class="mb-3">
+        <label for="InputAddress" class="form-label">Mailling Address:</label>
+        <input type="password" class="form-control" id="exampleInputPassword1">
+      </div>
+      <!-- Ask for messager's contact purpose -->
+      <div class="mb-3">
+        <label for="InputEmail" class="form-label">Message:</label>
+        <input required type="password" class="form-control" id="exampleInputPassword1">
+        <div class="invalid-feedback">
+          Please provide a message.
+        </div>
+      </div>
+      <div class="mb-3 checkboxgoal">
+        <p>Select a reason(s) For Contact:</p>
+      </div>
+      <!-- contact purpose checkbox -->
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Recruit</label>
+      </div>
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+      </div>
+      <button id="contactbutton" type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </section>
+
+  <!-- script to activate the needs-validation component -->
+  <script>
+    (function () {
+      'use strict'
+
+      // Fetch all the forms we want to apply custom Bootstrap validation styles to
+      var forms = document.querySelectorAll('.needs-validation')
+
+      // Loop over them and prevent submission
+      Array.prototype.slice.call(forms)
+        .forEach(function (form) {
+          form.addEventListener('submit', function (event) {
+            if (!form.checkValidity()) {
+              event.preventDefault()
+              event.stopPropagation()
+            }
+
+            form.classList.add('was-validated')
+          }, false)
+        })
+    })()
+
+  </script>
+</body>
+<!-- Footer reference disclosure-->
+<footer id="footer">
+  <ul>
+    <li class="copyright">
+      Created by Runqi Yang with <a href="https://getbootstrap.com">Bootstrap</a> for <a
+        href="https://utm.calendar.utoronto.ca/course/cct360h5">CCT360H5.</a>
+      Icons via the <a href="https://www.flaticon.com/">Flaticon</a>. Background Image via the <a
+        href="https://unsplash.com/">Unsplash</a>.
+    </li>
+  </ul>
+</footer>
+<!-- Bootstrap javascript bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+</html>
